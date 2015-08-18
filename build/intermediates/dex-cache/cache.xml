@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/home/rafael/.gradle/caches/modules-2/files-2.1/com.flaviofaria/kenburnsview/1.0.6/65dcd9c03096b73f4740d63cf93d30a692fe52b5/kenburnsview-1.0.6.jar"
+        jumboMode="false"
+        revision="22.0.0"
+        sha1="65dcd9c03096b73f4740d63cf93d30a692fe52b5">
+        <dex dex="/home/rafael/AndroidStudioProjects/MaterialViewPager-master/sample/build/intermediates/pre-dexed/debug/kenburnsview-1.0.6-1b47b640634db06c9863a692ee8bca22c8f9b180.jar" />
+    </item>
+    <item
+        jar="/home/rafael/AndroidStudioProjects/MaterialViewPager-master/sample/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/22.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.0"
+        sha1="5b37cf49773f7f17aca9830efd3053b0cac56728">
+        <dex dex="/home/rafael/AndroidStudioProjects/MaterialViewPager-master/sample/build/intermediates/pre-dexed/debug/classes-4e11b1963f03f15b9da10be4eb65cddfdfe8cac7.jar" />
+    </item>
+    <item
+        jar="/home/rafael/AndroidStudioProjects/MaterialViewPager-master/sample/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.0"
+        sha1="4486e953d1f35f8ccab098b1dd67146366d5f731">
+        <dex dex="/home/rafael/AndroidStudioProjects/MaterialViewPager-master/sample/build/intermediates/pre-dexed/debug/classes-dda2689eb41631c829a58983f94527e52b335110.jar" />
+    </item>
+    <item
+        jar="/home/rafael/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/22.2.1/support-annotations-22.2.1.jar"
+        jumboMode="false"
+        revision="22.0.0"
+        sha1="61a0ff5c29295ec56d7e0bd3d25d95dbf71b4b2b">
+        <dex dex="/home/rafael/AndroidStudioProjects/MaterialViewPager-master/sample/build/intermediates/pre-dexed/debug/support-annotations-22.2.1-bd9ecb9389f595ba61155d3ee862cad41db7e2b9.jar" />
+    </item>
+    <item
+        jar="/home/rafael/.gradle/caches/modules-2/files-2.1/com.squareup.picasso/picasso/2.5.2/7446d06ec8d4f7ffcc53f1da37c95f200dcb9387/picasso-2.5.2.jar"
+        jumboMode="false"
+        revision="22.0.0"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="/home/rafael/AndroidStudioProjects/MaterialViewPager-master/sample/build/intermediates/pre-dexed/debug/picasso-2.5.2-4b7f20b9e1e09880f6f9d17bd63089d1f8fe2d2b.jar" />
+    </item>
+    <item
+        jar="/home/rafael/AndroidStudioProjects/MaterialViewPager-master/sample/build/intermediates/exploded-aar/com.android.support/cardview-v7/22.2.1/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.0"
+        sha1="e1fa5e1123997a55e3ed65b44892993ff4b58cfe">
+        <dex dex="/home/rafael/AndroidStudioProjects/MaterialViewPager-master/sample/build/intermediates/pre-dexed/debug/classes-83a7b5e90411510ee86efc959024dfa49f4a9ef3.jar" />
+    </item>
+    <item
+        jar="/home/rafael/AndroidStudioProjects/MaterialViewPager-master/sample/build/intermediates/exploded-aar/com.github.ksoichiro/android-observablescrollview/1.5.2/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.0"
+        sha1="256c2cf84542c459927ed4aa5f99a9b47855c071">
+        <dex dex="/home/rafael/AndroidStudioProjects/MaterialViewPager-master/sample/build/intermediates/pre-dexed/debug/classes-baf55e020c24edde8554649ba34f5e8ab4956576.jar" />
+    </item>
+    <item
+        jar="/home/rafael/AndroidStudioProjects/MaterialViewPager-master/sample/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.1/jars/libs/internal_impl-22.2.1.jar"
+        jumboMode="false"
+        revision="22.0.0"
+        sha1="c471eaaba13ff64f6e0383d1c30a9cdc9a97efeb">
+        <dex dex="/home/rafael/AndroidStudioProjects/MaterialViewPager-master/sample/build/intermediates/pre-dexed/debug/internal_impl-22.2.1-4ed1d474a918f7c9a5657d86b67bc2e1f1236350.jar" />
+    </item>
+    <item
+        jar="/home/rafael/AndroidStudioProjects/MaterialViewPager-master/sample/build/intermediates/exploded-aar/com.jpardogo.materialtabstrip/library/1.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.0"
+        sha1="611c7708cd3df0d7ae99105d4df5af8eb25c4b32">
+        <dex dex="/home/rafael/AndroidStudioProjects/MaterialViewPager-master/sample/build/intermediates/pre-dexed/debug/classes-3b517ec21a52e3604fa691c3e2376e738f693de8.jar" />
+    </item>
+    <item
+        jar="/home/rafael/.gradle/caches/modules-2/files-2.1/com.github.PhilJay/MPAndroidChart/v2.1.3/3fce86548feba9dd220128fa651498c51d099cd8/MPAndroidChart-v2.1.3.jar"
+        jumboMode="false"
+        revision="22.0.0"
+        sha1="3fce86548feba9dd220128fa651498c51d099cd8">
+        <dex dex="/home/rafael/AndroidStudioProjects/MaterialViewPager-master/sample/build/intermediates/pre-dexed/debug/MPAndroidChart-v2.1.3-0c1f469f1eb8ab03b6f43863ca52f43bd4b914a2.jar" />
+    </item>
+    <item
+        jar="/home/rafael/.gradle/caches/modules-2/files-2.1/com.nineoldandroids/library/2.4.0/e9b63380f3a242dbdbf103a2355ad7e43bad17cb/library-2.4.0.jar"
+        jumboMode="false"
+        revision="22.0.0"
+        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
+        <dex dex="/home/rafael/AndroidStudioProjects/MaterialViewPager-master/sample/build/intermediates/pre-dexed/debug/library-2.4.0-4bc3726f74b30069a2f927b97be50175367299b9.jar" />
+    </item>
+    <item
+        jar="/home/rafael/AndroidStudioProjects/MaterialViewPager-master/sample/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.1/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.0"
+        sha1="f8efd0096475e0daf054267b61544e10dc776503">
+        <dex dex="/home/rafael/AndroidStudioProjects/MaterialViewPager-master/sample/build/intermediates/pre-dexed/debug/classes-c5252ed672280a0d1d5878f9a55e872356404beb.jar" />
+    </item>
+    <item
+        jar="/home/rafael/AndroidStudioProjects/MaterialViewPager-master/sample/build/intermediates/exploded-aar/com.github.florent37/materialviewpager/1.0.6/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.0"
+        sha1="b36f010dd96db1bb740be3865f7b8d602a435eeb">
+        <dex dex="/home/rafael/AndroidStudioProjects/MaterialViewPager-master/sample/build/intermediates/pre-dexed/debug/classes-aa03c0f7490ea679e3640fc35a5b05a014c034b9.jar" />
+    </item>
+
+</items>
