@@ -198,5 +198,45 @@ public class MotionRecyclerViewAdapter extends RecyclerView.Adapter<MotionRecycl
 
     }
 
+    private void UpdateChart(BarChart mChart){
+        mChart.setDrawBarShadow(true);
+        mChart.setClickable(false);
 
+        mChart.setDrawBarShadow(false);
+
+        mChart.setDrawValueAboveBar(true);
+
+        mChart.setDescription("");
+
+        mChart.setMaxVisibleValueCount(60);
+
+        mChart.setPinchZoom(false);
+
+        mChart.setDrawGridBackground(false);
+        setData(mChart, 20);
+        mChart.animateY(2500);
+    }
+
+    private void setData(BarChart mChart, float range) {
+
+        ArrayList<BarEntry> yVals1 = new ArrayList<BarEntry>();
+        ArrayList<String> xVals = new ArrayList<String>();
+
+        String[] mAccelerationVector = {"X","Y","X"};
+
+        for (int i = 0; i < 3; i++) {
+            xVals.add(mAccelerationVector[i]);
+            yVals1.add(new BarEntry((float) (Math.random() * range), i));
+        }
+
+        BarDataSet set1 = new BarDataSet(yVals1, "DataSet 1");
+
+        ArrayList<BarDataSet> dataSets = new ArrayList<BarDataSet>();
+        dataSets.add(set1);
+
+        BarData data = new BarData(xVals, dataSets);
+        data.setValueTextSize(10f);
+
+        mChart.setData(data);
+    }
 }
