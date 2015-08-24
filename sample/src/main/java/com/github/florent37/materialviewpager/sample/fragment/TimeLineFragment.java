@@ -1,15 +1,9 @@
 package com.github.florent37.materialviewpager.sample.fragment;
 
-import android.content.BroadcastReceiver;
-import android.content.Context;
-import android.content.Intent;
-import android.content.IntentFilter;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
-import android.support.v4.content.LocalBroadcastManager;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -19,6 +13,7 @@ import com.github.florent37.materialviewpager.sample.R;
 import com.github.florent37.materialviewpager.sample.common.ChartData;
 import com.github.ksoichiro.android.observablescrollview.ObservableScrollView;
 import com.github.mikephil.charting.charts.LineChart;
+import com.github.mikephil.charting.components.XAxis;
 import com.github.mikephil.charting.data.Entry;
 import com.github.mikephil.charting.data.LineData;
 import com.github.mikephil.charting.data.LineDataSet;
@@ -26,10 +21,10 @@ import com.github.mikephil.charting.data.LineDataSet;
 import java.util.ArrayList;
 
 
-public class HeartMonitoringFragment extends Fragment {
+public class TimeLineFragment extends Fragment {
 
     public static final String TAG = "HeartMonitoringFragment";
-    private static final int NUM_POINTS_GRAPH = 45;
+    private static final int NUM_POINTS_GRAPH = 60;
 
     /**
      * Linear Chart and Statistical Data
@@ -45,13 +40,13 @@ public class HeartMonitoringFragment extends Fragment {
 
     private ObservableScrollView mScrollView;
 
-    public static HeartMonitoringFragment newInstance() {
-        return new HeartMonitoringFragment();
+    public static TimeLineFragment newInstance() {
+        return new TimeLineFragment();
     }
 
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        rootView = inflater.inflate(R.layout.fragment_heart_monitoring, container, false);
+        rootView = inflater.inflate(R.layout.fragment_time_line, container, false);
         mChart = (LineChart) rootView.findViewById(R.id.chart);
 
         UpdateLinearChart();
@@ -68,17 +63,29 @@ public class HeartMonitoringFragment extends Fragment {
     }
 
     public void UpdateLinearChart(){
+        // Data
         setData(NUM_POINTS_GRAPH, 70);
-        // Clean Format for the Chart
-        mChart.setDragEnabled(false);
+
+        // Zoom Options
+        mChart.zoom(2,1,0,0);
+        mChart.setDragEnabled(true);
         mChart.setScaleEnabled(false);
         mChart.setDoubleTapToZoomEnabled(false);
-        mChart.setDragEnabled(false);
+
+        // Legend Layout
         mChart.setDescription("");
+        mChart.getLegend().setEnabled(false);
+
+        // Y Axis Layout
         mChart.getAxisLeft().setEnabled(false);
         mChart.getAxisRight().setEnabled(false);
-        mChart.getXAxis().setEnabled(false);
-        mChart.getLegend().setEnabled(false);
+
+        // X Axis layout
+        XAxis mXAxis = mChart.getXAxis();
+        mXAxis.setDrawGridLines(true);
+        mXAxis.setDrawAxisLine(false);
+        mXAxis.setDrawLabels(true);
+        mXAxis.setLabelsToSkip(5);
     }
 
     private void setData(int count, float range) {

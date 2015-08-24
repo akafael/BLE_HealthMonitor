@@ -30,6 +30,7 @@
                 android:layout_alignParentLeft="true"
                 android:layout_alignParentTop="true"
                 android:layout_marginLeft="@dimen/cardMarginHorizontal"
+                android:layout_marginTop="@dimen/cardMarginHorizontal"
                 android:text="@string/data_chart_label"
                 android:layout_alignParentStart="true"/>
 

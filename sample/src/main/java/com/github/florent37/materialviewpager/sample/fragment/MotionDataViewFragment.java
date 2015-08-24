@@ -1,6 +1,5 @@
 package com.github.florent37.materialviewpager.sample.fragment;
 
-import android.graphics.Color;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
@@ -15,10 +14,6 @@ import com.github.florent37.materialviewpager.adapter.RecyclerViewMaterialAdapte
 import com.github.florent37.materialviewpager.sample.MotionRecyclerViewAdapter;
 import com.github.florent37.materialviewpager.sample.R;
 import com.github.florent37.materialviewpager.sample.TestRecyclerViewAdapter;
-import com.github.mikephil.charting.charts.LineChart;
-import com.github.mikephil.charting.data.Entry;
-import com.github.mikephil.charting.data.LineData;
-import com.github.mikephil.charting.data.LineDataSet;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -16,7 +16,7 @@ import com.github.florent37.materialviewpager.sample.fragment.MotionDataViewFrag
 import com.github.florent37.materialviewpager.sample.fragment.ScrollFragment;
 import com.github.florent37.materialviewpager.sample.fragment.TimeLineFragment;
 
-public class MainActivity extends AppCompatActivity {
+public class BleMainActivity extends AppCompatActivity {
 
     // GUI
     private MaterialViewPager mViewPager;
@@ -60,9 +60,9 @@ public class MainActivity extends AppCompatActivity {
             public Fragment getItem(int position) {
                 switch (position % 4) {
                     case 0:
-                        return MotionDataViewFragment.newInstance();
-                    case 1:
                         return HeartMonitoringFragment.newInstance();
+                    case 1:
+                        return MotionDataViewFragment.newInstance();
                     case 2:
                         return TimeLineFragment.newInstance();
                     default:
@@ -79,9 +79,9 @@ public class MainActivity extends AppCompatActivity {
             public CharSequence getPageTitle(int position) {
                 switch (position % 4) {
                     case 0:
-                        return getString(R.string.section_acceleration_info);
-                    case 1:
                         return getString(R.string.section_heart_info);
+                    case 1:
+                        return getString(R.string.section_acceleration_info);
                     case 2:
                         return getString(R.string.section_time_line);
                     case 3:
@@ -97,13 +97,12 @@ public class MainActivity extends AppCompatActivity {
                 switch (page) {
                     case 0:
                         return HeaderDesign.fromColorResAndUrl(
-                                R.color.cyan,
-                                "http://i.huffpost.com/gen/2729676/original.jpg");
-
-                    case 1:
-                        return HeaderDesign.fromColorResAndUrl(
                                 R.color.wsu_lightGreen,
                                 "http://detroitwaterbrigade.org/wp-content/uploads/2014/08/Spirit_of_Detroit.jpg");
+                    case 1:
+                        return HeaderDesign.fromColorResAndUrl(
+                                R.color.cyan,
+                                "http://i.huffpost.com/gen/2729676/original.jpg");
                     case 2:
                         return HeaderDesign.fromColorResAndUrl(
                                 R.color.wsu_golden,
@@ -135,4 +134,7 @@ public class MainActivity extends AppCompatActivity {
         super.onPostCreate(savedInstanceState);
         mDrawerToggle.syncState();
     }
+
+
+
 }

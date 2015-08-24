@@ -1,4 +1,4 @@
-package com.github.florent37.materialviewpager.sample.fragment;
+package com.github.florent37.materialviewpager.sample.common;
 
 import java.util.ArrayList;
 
