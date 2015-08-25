@@ -1,1 +1,1 @@
-include ':materialviewpager', ':sample', ':blehealthmonitor'
+include ':materialviewpager', ':sample'
